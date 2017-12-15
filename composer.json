@@ -1,0 +1,23 @@
+{
+    "name": "web2all/crypt",
+    "description": "Web2All crypto classes",
+    "keywords": ["web2all","crypt","password","keygen","cipher"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Merijn van den Kroonenberg",
+            "homepage": "https://github.com/merijnvdk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "web2all/framework" :"~1"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
+
